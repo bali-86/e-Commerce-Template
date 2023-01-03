@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar-brand{
+    font-size: 2rem;
+    color: rgb(218, 11, 105);
+    font-family: 'Pacifico', cursive;
+}
+.navbar-brand:hover{
+    color: black;
+}
+.nav-item a{
+    margin-right: 15px;
+    margin-left: 15px;
+    color: black;
+    text-transform: uppercase;
+    font-family: 'Inter', sans-serif;
+}
+.nav-item a:hover{
+    color: rgb(218, 11, 105);
+}
+.fa-regular,.fa-brands{
+    color: rgb(218, 11, 105);
+    font-size: 1.1rem;
+    cursor: pointer;
+    margin-left: 15px;
+    
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+
+
+  /* nav end
+   */
+  
+/* .nav-item ul{
+    display: none;
+    list-style: none;
+    width: 100px;
+    background: white;
+    margin-left: -26px;
+}
+.nav-item ul:hover{
+    display: block;
+} */
+
+/* main div css start */
+.main-pic{
+    background: url(../images/main.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.row{
+    /* height: 70vh; */
+}
+.main p{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+.main h1{
+    font-size: 5rem;
+    font-weight: 900;
+}
+.btn2{
+    height: 45px;
+    width: 40%;
+    color: white;
+    outline: none;
+    border: none;
+    background-color: rgb(218, 11, 105);
+    font-weight: bold;
+    /* transition: all 0.4s; */
+    cursor: pointer;
+}
+.btn2:hover{
+    border: 1px solid rgb(218, 11, 105);
+    background: transparent;
+    color: rgb(218, 11, 105);
+    transition: all 0.9s; 
+}
+.btnc{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    height: 53px;
+    width: 40%;
+    color: black;
+    border: none;
+    outline: none;
+    background: white;
+    cursor: all 0.4s;
+}
+.btnc:hover{
+    background: rgb(218, 11, 105);
+    color: white;
+    transition: all 0.4s;
+}
+.zoom-n-rotate{
+    overflow: hidden;
+    cursor: pointer;
+}
+.zoom-n-rotate img{
+    transition: all 0.5s ;
+}
+.zoom-n-rotate:hover img{
+    transform: scale(1.5);
+    /* transition: all 0.4s; */
+}
+/* product section */
+
+.heading{
+    font-weight: 500;
+    font-size: 2.6rem;
+}
+.man-img{
+    width: 100%;
+}
+.products{
+    background-color: rgb(246, 243, 243);
+}
+
+/* New Arrival */
+
+.smile-img{
+    width: 100%;
+    height: 60vh;
+}
+
+/* iconic */
+.iconic{
+    text-align: justify;
+    font-family: 'prompt', sans-serif;
+
+}
+.fa-solid{
+    color:rgb(218, 11, 105) ;
+    font-size: 2.5rem;
+}
+/* footer */
+.news{
+    background-color: black;
+    font-family: 'prompt', sans-serif;
+}
+.news a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+.news a:hover{
+    color: rgb(218, 11, 105);
+    padding-left: 5px;
+    /* transition: all 0.4s; */
+}
+.btns{
+    height: 50px;
+    width: 40%;
+    outline: none;
+    background: white;
+    color:rgb(218, 11, 105) ;
+    font-weight: bold;
+}
+.n-letter{
+    height: 50px;
+    width: 70%;
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+}
+.circle{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    color: white;
+    background: rgb(53, 49, 49);
+    cursor: pointer;
+    text-align: center;
+}
+.circle:hover{
+    background: white;
+    color:rgb(53, 49, 49) ;
+}
+.ftt{
+    color:rgb(53, 49, 49) ;
+}
+.main-pic1{
+    background: url(../images/manshoes1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.main-pic2{
+    background: url(../images/menwatch.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.size-design{
+    font-size: large;
+    text-decoration: underline;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.btnb{
+    height: 40px;
+    width: 70%;
+    outline: none;
+    border: none;
+    background: white;
+    color:rgb(218, 11, 105) ;
+    font-weight: bold;
+}
+.btnb:hover{
+    background: rgb(218, 11, 105);
+    color: white;
+    transition: all 0.4s;
+}
